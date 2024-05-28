@@ -42,7 +42,7 @@ body{
 }
 
 .navbar-toggler{
-    color: greenyellow;
+    color: rgb(70, 137, 166);
     display:block;
     align-items: flex-start;
 }
