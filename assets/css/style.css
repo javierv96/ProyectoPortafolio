@@ -1,0 +1,238 @@
+
+
+body{
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 150px;
+}
+
+.logofin{
+    width: 100px;
+}
+
+.navbar{
+    width:inherit;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+    font-weight:500;
+    font-size: medium;
+    text-transform: uppercase; 
+}
+
+.navbar-nav a:hover{
+    color:rgb(70, 137, 166);
+}
+
+.redes a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.redes a:hover{
+    color: rgb(70, 137, 166);
+}
+
+.navbar-toggler{
+    color: greenyellow;
+    display:block;
+    align-items: flex-start;
+}
+
+#inicio{
+    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../imgs/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+
+.presentacion {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentacion .bienvenida {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.presentacion h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.presentacion h2 span {
+    font-size: 2.3rem;
+    color: rgb(70, 137, 166);
+}
+
+.presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.presentacion a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.presentacion a:hover {
+    background-color: rgb(70, 137, 166);
+}
+
+#sobremi{
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+
+#sobremi .sobremi .titulo-seccion {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#sobremi .sobremi h3 {
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#sobremi .sobremi p {
+    font-size: 1rem;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 12px;
+}
+
+#sobremi .sobremi a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#sobremi .sobremi a:hover {
+    background-color: rgb(70, 137, 166);
+    color: #fff;
+}
+
+.banner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 0 0px;
+    border:  1px solid white; /* para confirmar la iteración y orden */
+    border-radius: 30px;
+}
+
+#carouselExampleControls .image-top{
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+
+#portafolio .habilidades .titulo-skills {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    text-decoration-thickness: 5px;
+    margin-top: 80px;
+}
+
+#portafolio{
+    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../imgs/fondo1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+#portafolio .portafolio .titulo-proyectos {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    text-decoration-thickness: 5px;
+    padding-top: 100px;
+}
+
+.card {
+    background-color: rgb(70, 137, 166);
+    border-color: white;
+}
+
+.card img {
+    height: 180px;
+}
+
+.card-body {
+    background-color: rgb(70, 137, 166);
+}
+
+.footer p{
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(70, 137, 166);
+    text-align: center;
+}
+
+.redes-bottom a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.redes-bottom a:hover{
+    color:rgb(70, 137, 166);
+}
